@@ -1,0 +1,20 @@
+.time {
+    text-align: center;
+    padding: 32px;
+}
+
+.time h3 {
+    font-size: 32px;
+    border-bottom: 4px solid;
+    display: inline-block;
+    padding: 8px;
+}
+
+.time .colaboradores {
+    display: flex;
+    justify-content: space-around;  /* Divide as divs igualmente pelo espaço disponível */
+    margin-top: 32px; 
+    flex-wrap: wrap;  /* Se n couber td na mesma linha, joga pra segunda linha inves 
+                         de tentar espremer td na mesma linha
+                      */
+}
